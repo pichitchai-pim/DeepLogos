@@ -1,0 +1,12 @@
+dir
+cd mask_rcnn
+dir
+python3 balloon1.py train --dataset=D:/LOGO_BD/MarkRCNN_Dataset/Data_Pretrain/New_folder --model=coco
+python balloon1.py train --dataset=D:/LOGO_BD/MarkRCNN_Dataset/Data_Pretrain/New_folder --model=coco
+active Mask_RCNN
+activate Mask_RCNN
+activate MaskR_CNN
+python balloon1.py train --dataset=D:/LOGO_BD/MarkRCNN_Dataset/Data_Pretrain/New_folder --model=coco
+python balloon1.py train --dataset=D:/LOGO_BD/MarkRCNN_Dataset/Data_Pretrain/New_folder --model=coco --weights=D:\logs\mask_rcnn_logo_0100.h5
+python balloon1.py train --dataset=D:/LOGO_BD/MarkRCNN_Dataset/Data_Pretrain/New_folder  --weights=D:\logs\mask_rcnn_logo_0100.h5
+doskey /HISTORY > history.txt
